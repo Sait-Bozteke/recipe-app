@@ -1,15 +1,13 @@
-import axios from 'axios';
-import React, {useState} from 'react'
+import axios from "axios";
+import React, { useState } from "react";
 import Header from "../../components/header/Header";
-import { ImgDiv, MainContainer,HomeImg } from './HomeStyles';
-import homeSvg from '../../assets/home.svg'
-import RecipeCardComp from "./RecipeCardComp"
+import { ImgDiv, MainContainer, HomeImg } from "./HomeStyles";
+import homeSvg from "../../assets/home.svg";
+import RecipeCardComp from "./RecipeCardComp";
 
-
-const APP_ID = "ba779da3"; 
-const APP_KEY = "7153d4dba5b9f3a7b18831d998857b4b";
+const APP_ID = "549128c1";
+const APP_KEY = "d3dc50140df6c1f82c670f88d29b377c";
 /****buraya kendi id ve key imizi yaziyoruz**********/
-
 
 const Home = () => {
   const [query, setQuery] = useState("");
@@ -71,6 +69,6 @@ const Home = () => {
       )}
     </div>
   );
-}
+};
 
-export default Home
+export default Home;
