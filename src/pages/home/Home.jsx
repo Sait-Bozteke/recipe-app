@@ -5,8 +5,8 @@ import { ImgDiv, MainContainer, HomeImg } from "./HomeStyles";
 import homeSvg from "../../assets/home.svg";
 import RecipeCardComp from "./RecipeCardComp";
 
-const APP_ID = "549128c1";
-const APP_KEY = "d3dc50140df6c1f82c670f88d29b377c";
+const APP_ID = "42c80eaf";
+  const APP_KEY = "9e51e8449033b1c2ea78b947af7bcdb1"
 /****buraya kendi id ve key imizi yaziyoruz**********/
 
 const Home = () => {
