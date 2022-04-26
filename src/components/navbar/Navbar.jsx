@@ -34,7 +34,7 @@ const Navbar = () => {
           onClick={() =>
             setGithub(
               (window.location.href =
-                "https://github.com/orgs/clarusway/dashboard")
+                "https://github.com/Sait-Bozteke")
             )
           }
           to={github}
